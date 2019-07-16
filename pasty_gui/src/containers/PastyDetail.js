@@ -48,22 +48,6 @@ class PastyDetail extends Component{
 
             <div>
 
-
-            <div>
-            {
-            this.props.token ?
-            <Form onSubmit={this.handleDelete}>
-                <Button type='danger' htmlType='submit'>Delete</Button>
-            </Form>
- 
-            :
-            
-            <div>
-                    <h2>error</h2>
-            </div>
-            }
-            </div>
-
             <Form onSubmit={this.handleDelete}>
                 <Button type='danger' htmlType='submit'>Delete</Button>
             </Form>
