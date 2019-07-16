@@ -9,13 +9,18 @@ This project is broken up into a backend and frontend. The backend contains the 
 
 Run the following commands to get started:
 
+first shell
 ```json
 virtualenv env
 pip install -r requirements.txt
+cd .\pasty_api\
+python manage.py runserver
+```
+
+Second shell
+```json
 cd .\pasty_gui\
 npm i
 npm run build
-cd ..
-cd .\pasty_api\
-python manage.py runserver
+npm start
 ```
